@@ -26,8 +26,12 @@
             <div class="fieldset">
                 <input type="text" name="origin" placeholder="Origin" required>
                 <input type="text" name="destination" placeholder="destination" required>
-                <input type="datetime" name="departure" placeholder="date and time of departure">
-                <input type="number" name="contribution" placeholder="Ksh. 0.00">
+                <input type="date" name="departure" placeholder="date of departure" required>
+                <input type="time" name="departure" placeholder="time of departure" required>
+                <input type="number" name="capacity" placeholder="Vehicle Capacity" required>
+                <input type="number" name="contribution" placeholder="cost Ksh. 0.00 per passenger" required>
+                <input type="text" name="vehicletype" placeholder="Vehicle Type" required>
+                <input type="text" name="vehiclenumberplate" placeholder="Vehicle No. Plate" required>
             </div>
             <textarea name="drivernotes" rows="10" cols="50" placeholder="Driver notes.."></textarea>
             <button type="submit" class="add">OFFER RIDE</button>
