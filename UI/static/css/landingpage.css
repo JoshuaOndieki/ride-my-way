@@ -75,7 +75,7 @@ body {
     width: 120px;
 }
 
-input[type=text], input[type=password], input[type=email], select {
+input[type=text], input[type=password], input[type=email], input[type=tel], select {
     background: #f1f1f1;
     border: none;
     border-radius: 10px;
